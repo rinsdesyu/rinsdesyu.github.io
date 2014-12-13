@@ -7,8 +7,8 @@
     <style>
         body {
             background-image: url(http://www.makegoodtime.net/wp-content/uploads/Venice_Palms.jpg);
-            background-size: cover;
-            background-repeat: space;
+            background-size: contain;
+            background-repeat: round;
         }
         .Header {
             background-color: #fff;
@@ -21,6 +21,7 @@
             font-size: 54px;
             text-align: center;
             margin: 100px;
+            margin-top: 110px;
         }
         .Header a {
             color: #000;
@@ -51,10 +52,14 @@
         .NavBar a:hover {
             text-decoration: none;
             text-transform: lowercase;
+            background-color: #fff;
         }
         .NavBar {
             background-color: #d3d3d3;
-            
+            position: fixed;
+            z-index: 1;
+            margin-left: 425px;
+            margin-top: 10px;
         }     
         .article {
             background: #fff;
@@ -63,7 +68,8 @@
             text-align: left;
             width: 750px;
             border: white solid;
-            margin-left: 100px;
+            margin-left: auto;
+            margin-right: auto;
             margin-top: 20px;
         }
         .article a {
