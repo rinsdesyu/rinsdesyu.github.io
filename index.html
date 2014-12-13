@@ -3,6 +3,8 @@
 <head>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <script src="jquery-1.11.1.min"></script>
+    <script src="jquery-ui.js"></script>
     <title>Teen Times</title>
     <style>
         body {
@@ -124,9 +126,25 @@
             text-align: center;
             font-weight: bold;
         }
+        
+        #music {
+            width: 150px;
+            height: 150px;
+            padding: 0.5em;
+        }
     </style>
+    <script>
+        $(document).ready(init);
+        function init(){
+        $("#music").draggable({
+            delay: 2000
+        });
+        }
+    });
+    </script>
 </head>
 <body>
+    
     <div class="NavBar">
         <ul>
             <li><a href="http://teentimes.net/lastissue">LAST ISSUE</a></li>
@@ -136,10 +154,12 @@
             <li><a href="http://teentimes.net/articles">ARTICLES</a></li>
         </ul>
     </div>
+    
     <div class="Header">
         <h1><a href="http://another_directory/another_page.html">Teen Times</a></h1>
         <p>The magazine about art, modern culture, net projects, music, experimental literature and lifestyle.</p>
     </div>
+    
     <div class="article">
         <h3><a href="teentimes.net/articles/001">"Welcome/Wilkommen/ドオゾ"</a></h3>
         <img src="http://41.media.tumblr.com/8f192e1322f39d50211003582dfc4433/tumblr_nct7uv7zVm1qapi0oo1_400.jpg" />
@@ -149,10 +169,16 @@
         <p>Nam sed rhoncus sapien. Cras feugiat magna quis mi tempus semper. Sed in mi luctus, gravida libero sit amet, consectetur justo. Nunc tempor mollis libero sed mollis. Nulla efficitur pharetra odio vel finibus. Pellentesque auctor ac metus sit amet luctus. Praesent vel luctus tellus. In eget diam id ante pulvinar iaculis. Donec ornare placerat lacus nec efficitur. Morbi id ligula id dolor vehicula rutrum id eget magna. Aenean hendrerit, risus at fermentum pharetra, elit sapien mollis mauris, at sollicitudin nunc lectus a sapien. Morbi imperdiet velit at sem vulputate elementum. Vivamus tortor augue, molestie nec consectetur quis, accumsan ut nunc. Etiam viverra neque at aliquet molestie. Nam facilisis mollis lorem, et sagittis ante auctor eu. Fusce feugiat sagittis metus, faucibus pellentesque eros auctor et.</p>
         <p>Aenean tortor ex, tempor tincidunt enim vel, efficitur tempor felis. Maecenas vestibulum finibus gravida. Phasellus blandit sem eu imperdiet lobortis. Quisque vel dapibus tellus. Nunc auctor lectus a dui dapibus tempor. Suspendisse interdum sagittis metus. Ut vitae lorem hendrerit, eleifend neque quis, facilisis mi. Nam sagittis tellus a ligula eleifend tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce sed aliquam massa, nec hendrerit massa. In commodo finibus ullamcorper. Aliquam a lectus sit amet nisi condimentum dignissim at eu velit. Integer sollicitudin congue nisi non condimentum. Nam dui diam, placerat ut neque id, lobortis tempus ante. Nunc ex eros, convallis in semper ut, ultricies vitae elit.</p>
     </div>
+    
     <div class="img">
         <a href="http://retrodust.tumblr.com/post/105072081242"><img src="http://40.media.tumblr.com/2ce33cc586b66e8085ff5e898edae6c5/tumblr_ngifh0rvBT1r048glo1_500.jpg" /></a>
         <p>PARALLEL UNIVERSE</p>
         <p><a href="http://retrodust.tumblr.com/post/105072081242">link</a></p>
     </div>
+    
+    <div id="music">
+        <iframe style="border: 0; width: 250px; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2655759412/size=small/bgcol=ffffff/linkcol=333333/transparent=true/" seamless><a href="http://businesscasual87.bandcamp.com/album/digital-office-one">Digital Office One by Various Artists</a></iframe>
+    </div>
+ 
 </body>
 </html>
