@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
-    <script src="jquery-1.11.1.min"></script>
-    <script src="jquery-ui.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript">
+            $(function() {
+	
+	           $('#music').draggable();
+	
+            });
+    </script>
     <title>Teen Times</title>
-    <style>
+    <style type="text/css">
         body {
             background-image: url(http://www.makegoodtime.net/wp-content/uploads/Venice_Palms.jpg);
             background-size: contain;
@@ -133,15 +141,6 @@
             padding: 0.5em;
         }
     </style>
-    <script>
-        $(document).ready(init);
-        function init(){
-        $("#music").draggable({
-            delay: 2000
-        });
-        }
-    });
-    </script>
 </head>
 <body>
     
@@ -176,7 +175,7 @@
         <p><a href="http://retrodust.tumblr.com/post/105072081242">link</a></p>
     </div>
     
-    <div id="music">
+    <div id="music" class="ui-widget ui-corner-all ui-state-error">
         <iframe style="border: 0; width: 250px; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2655759412/size=small/bgcol=ffffff/linkcol=333333/transparent=true/" seamless><a href="http://businesscasual87.bandcamp.com/album/digital-office-one">Digital Office One by Various Artists</a></iframe>
     </div>
  
