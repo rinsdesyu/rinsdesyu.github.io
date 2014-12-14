@@ -2,6 +2,7 @@ body {
     background-image: url(teentimesbg2.png);  
     background-size: auto;
     background-repeat: auto;
+    min-width: 600px;
     -webkit-filter: blur(2000);
 }
 .Header {
@@ -59,17 +60,22 @@ body {
     text-align: center;
 }     
 @media only screen and (max-device-width: 768px) {
-    .NavBar {
-        background-color: #fff;
-        position: fixed;
-        z-index: 1;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        opacity: 0.85;
+    body {
         width: 768px;
-        text-align: center;
     }     
+}
+@media only screen and (max-device-width: 768px) {
+    .NavBar {
+    background-color: #5b7fff;
+    position: fixed;
+    z-index: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.85;
+    width: 765px;
+    text-align: center;
+}         
 }
 .article {
     background: #fff;
