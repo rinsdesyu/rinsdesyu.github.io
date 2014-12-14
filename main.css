@@ -81,6 +81,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    box-shadow: 5px 5px 5px #888888;
 }
 .article a {
     text-decoration: none;
@@ -110,6 +111,7 @@ body {
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    box-shadow: 5px 5px 5px #888888;
 }
 .img img {
     display: block;
@@ -147,6 +149,7 @@ body {
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    box-shadow: 5px 5px 5px #888888;
         
 }
 #music iframe {
