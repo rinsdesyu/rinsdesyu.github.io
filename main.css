@@ -1,5 +1,5 @@
-body {
-            background-image: url(http://www.makegoodtime.net/wp-content/uploads/Venice_Palms.jpg);
+        body {
+            background-image: url(http://36.media.tumblr.com/2a238d9a2276abb974c9384ce1c2e9d0/tumblr_ng0uipjynA1tuf1sjo1_1280.jpg);
             background-size: contain;
             background-repeat: round;
             -webkit-filter: blur(2000);
@@ -58,6 +58,19 @@ body {
             width: 1333px;
             text-align: center;
         }     
+        @media only screen and (max-device-width: 768px) {
+            .NavBar {
+            background-color: #fff;
+            position: fixed;
+            z-index: 1;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            opacity: 0.85;
+            width: 768px;
+            text-align: center;
+        }     
+        }
         .article {
             background: #fff;
             font-family: PT Sans, monospace;
