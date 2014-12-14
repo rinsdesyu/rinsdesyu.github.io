@@ -1,0 +1,127 @@
+body {
+            background-image: url(http://www.makegoodtime.net/wp-content/uploads/Venice_Palms.jpg);
+            background-size: contain;
+            background-repeat: round;
+            -webkit-filter: blur(2000);
+        }
+        .Header {
+            background-color: #fff;
+            opacity: 0.8;
+            padding: : 50px;
+            border: solid white; 
+        }
+        .Header h1 {
+            font-family: Shadows Into Light, sans-serif;
+            font-size: 54px;
+            text-align: center;
+            margin: 100px;
+            margin-top: 110px;
+        }
+        .Header a {
+            color: #000;
+            text-decoration: none;
+        }
+        .Header a:hover {
+            background-color: #fff;
+            opacity: 0.6;
+        }
+        .Header p {
+            font-family: PT Sans, monospace;
+            font-size: 20px;
+            text-align: center;
+            padding: : 50px;
+        }
+        .NavBar li {
+            font-family: Envy Code R, monospace;
+            display: inline-table;
+            margin-top: auto;
+            margin-right: 15px;
+            padding-right: 5px;
+        }
+        .NavBar a {
+            text-decoration: none;
+            color: #000;
+            text-transform: none;
+        }
+        .NavBar a:hover {
+            text-decoration: none;
+            text-transform: lowercase;
+            background-color: #fff;
+        }
+        .NavBar {
+            background-color: #fff;
+            position: fixed;
+            z-index: 1;
+            margin-left: 425px;
+            margin-top: 10px;
+            opacity: 0.85;
+        }     
+        .article {
+            background: #fff;
+            font-family: PT Sans, monospace;
+            padding: : 50px;
+            text-align: left;
+            width: 750px;
+            border: white solid;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+        }
+        .article a {
+            text-decoration: none;
+            color: #000;
+        }
+        .article h3 {
+            text-align: center;
+            font-size: 24px;
+        }
+        .article img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .article p {
+            margin: 20px;
+        }
+        .img {
+            background: #fff;
+            font-family: PT Sans, monospace;
+            padding: : 50px;
+            text-align: left;
+            width: 750px;
+            border: white solid;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .img img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 20px
+        }
+        .img a {
+            color: #000;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: normal;
+        }
+        .img a:hover {
+            color: #000;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: normal;
+            opacity: 0.7;
+        }
+        .img p {
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        #music {
+            width: 150px;
+            height: 150px;
+            padding: 0.5em;
+            position: relative;
+        }
