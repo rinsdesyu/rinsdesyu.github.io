@@ -1,7 +1,7 @@
         body {
-            background-image: url(http://36.media.tumblr.com/2a238d9a2276abb974c9384ce1c2e9d0/tumblr_ng0uipjynA1tuf1sjo1_1280.jpg);
-            background-size: contain;
-            background-repeat: round;
+            background-image: url(teentimesbg2.png);  
+            background-size: auto;
+            background-repeat: auto;
             -webkit-filter: blur(2000);
         }
         .Header {
@@ -32,7 +32,7 @@
             padding: : 50px;
         }
         .NavBar li {
-            font-family: "Helvetica Neue", monospace;
+            font-family: Cutive Mono, monospace;
             display: inline-table;
             margin-top: auto;
             margin-right: 15px;
@@ -40,7 +40,7 @@
         }
         .NavBar a {
             text-decoration: none;
-            color: #000;
+            color: #fff;
             text-transform: none;
         }
         .NavBar a:hover {
@@ -48,7 +48,7 @@
             text-transform: lowercase;
         }
         .NavBar {
-            background-color: #fff;
+            background-color: #5b7fff;
             position: fixed;
             z-index: 1;
             display: block;
