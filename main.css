@@ -177,9 +177,7 @@ body {
 .lowbar a {
     text-decoration: none;
     color: #000;
-    text-transform: none;
 }
 .lowbar a:hover {
-    text-decoration: none;
-    text-transform: lowercase;
+    text-decoration: underline;
 }
