@@ -131,6 +131,18 @@ body {
     box-shadow: 5px 5px 5px #888888;
         
 }
+    .lowbar {
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.85;
+    width: 768px;
+    text-align: center;
+}
 }
 .article {
     background: #fff;
