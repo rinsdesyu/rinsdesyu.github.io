@@ -59,7 +59,7 @@ body {
     width: 1333px;
     text-align: center;
 }     
-@media handheld {
+@media screen and (max-width: 768px) {
     body {
         max-width: 768px;
         background-size: contain;
